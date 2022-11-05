@@ -96,7 +96,7 @@ public class Main extends ApplicationAdapter {
 			}
 			offset_aliens =  new Vector2(0,0);
 			batch.end();
-			speed_aliens = 150;
+			speed_aliens = 100;
 			return;
 		}
 		offset_aliens.x+=direction_aliens*deltaTime*speed_aliens;

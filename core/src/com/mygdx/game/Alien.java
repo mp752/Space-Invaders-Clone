@@ -18,7 +18,7 @@ public class Alien {
         position_initial = position;
         sprite = new Sprite(img);
         sprite.setColor(color);
-        sprite.setScale(3);
+        sprite.setScale(2);
     }
     public void Draw(SpriteBatch batch){
         sprite.setPosition(position.x, position.y);
